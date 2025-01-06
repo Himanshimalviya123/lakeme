@@ -84,13 +84,26 @@
  } */
 #new-arrivals{
     width: 100%;
-    height: 100vh;
+    height: auto;
     border: 1px solid black;
+    /* display: flex;
+    justify-content: center; */
 }
-#new-arrivals .bestseller{
-    width:50%;
-    display: flex;
-    justify-content: center;
-    border: 2px solid black;
+ #new-arrivals .best-seller div{
+    width:400px;
+    height:600px;
+   border: 2px solid black;
+ 
     
+} 
+#new-arrivals .best-seller{
+
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+#new-arrivals .best-seller div img{
+    width:250px;
+    height: 300px;
 }
