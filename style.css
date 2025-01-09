@@ -88,12 +88,15 @@
     border: 1px solid black;
     /* display: flex;
     justify-content: center; */
+
 }
  #new-arrivals .best-seller div{
-    width:400px;
-    height:600px;
-   border: 2px solid black;
- 
+    width:298px;
+    height:500px;
+ border: 1px solid black; 
+   color: aliceblue;
+   background-color: black;
+   margin-top: 40px;
     
 } 
 #new-arrivals .best-seller{
@@ -104,6 +107,19 @@ align-items: center;
 gap: 20px;
 }
 #new-arrivals .best-seller div img{
-    width:250px;
+    width:296px;
     height: 300px;
+    
+}
+#new-arrivals .best-seller div p{
+    border: 1px solid red;
+    border-radius: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #e7bf88;
+    margin-top: 10px;
 }
