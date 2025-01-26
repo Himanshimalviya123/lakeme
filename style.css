@@ -119,3 +119,15 @@ gap: 20px;
     align-items:center;
     justify-content:center;
  }
+#photo{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+#photo div img{
+    width:296px;
+    height: 400px;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
