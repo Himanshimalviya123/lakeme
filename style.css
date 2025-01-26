@@ -162,3 +162,21 @@ margin-bottom: 50px;
     background-color: #e7bf88;
     margin-top: 10px;
 }
+.pic{
+    margin-top: 20px;
+    border-radius: 50%;
+  width: 100%;
+  
+}
+#pro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* margin-bottom: 10px; */
+} 
+#pro div img{
+width: 100%;
+height: 150%; 
+border: 1px solid black;
+}
